@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mi Hoja de Vida</title>
+  </head>
+  <body>
+    <header>
+      <svg width="250" height="160" viewBox="0 0 250 160">
+        <circle cx="100" cy="80" r="60" stroke="skyblue" stroke-width="1" fill="skyblue"/>
+        <text x="45" y="90" fill="none" stroke="blue" stroke-width="2" style="font-size: 40px">cd</text>
+        <text x="85" y="90" fill="none" stroke="white" stroke-width="2" style="font-size: 40px">-FH</text>
+      </svg>
+      <h1>Hoja de Vida</h1>
+    </header>
+
+    <fieldset>
+      <legend><h2>Datos Personales</h2></legend>
+        <h3>Nombres: Carlos David</h3>
+        <h3>Apellidos: Fernández Huapaya</h3>
+        <h3>Fecha de Nacimiento: 10 de Abril de 1995</h3>
+        <h3>Lugar de Nacimiento: Lima, Perú</h3>
+    </fieldset>
+
+    <fieldset>
+      <legend><h3>Menu</h3></legend>
+      <a href="index.html">Inicio</a>
+      <a href="educacion.html">Educación</a>
+      <a href="experiencia.html">Experiencia</a>
+    </fieldset>
+
+    <h2>EDUCACIÓN</h2>
+    <table border="">
+      <tr>
+        <th>Año</th>
+        <th>Institución</th>
+        <th>Lugar</th>
+        <th>¿Culminó?</th>
+      </tr>
+      <tr>
+        <th> 2007 - 2011 </th>
+        <th> Colegio Daniel Alcidez Carrión 0142 </th>
+        <th> San Juan de Lurigancho, Lima, Perú </th>
+        <th> Sí </th>
+      </tr>
+      <tr>
+        <th> 2012 - 2017 </th>
+        <th> Instituto Tegnologico IDAT </th>
+        <th> Cercado de Lima, Perú </th>
+        <th> Sí </th>
+      </tr>
+      <tr>
+        <th> 2018 </th>
+        <th> Next University </th>
+        <th> Curso Digital, Lima, Perú </th>
+        <th> En proceso </th>
+      </tr>
+    </table>
+
+    <form class="" action="index.html" method="post">
+      <h3>Agregar Estudios</h3>
+
+      <fieldset>
+        <legend>Ingresa los datos</legend>
+          <p>
+            <label for="">Año: </label>
+            <select class="" name="año">
+              <option value="">2016</option>
+              <option value="">2017</option>
+              <option value="">2018</option>
+            </select>
+          </p>
+          <p>
+            <label for="">Institución: </label>
+            <input type="text" name="institucion" value="" required>
+          </p>
+          <p>
+            <label for="">Lugar:</label>
+            <textarea name="lugar"></textarea>
+          </p>
+          <p>
+            <input type="submit" name="" value="Enviar">
+          </p>
+      </fieldset>
+    </form>
+
+    <footer>
+      <fieldset>
+        <legend><h2>Información de Contacto</h2></legend>
+          <h3>Correo electrónico: aries-1995_13@hotmail.com</h3>
+          <h3>Teléfono: 957283015</h3>
+          <h3>Redes Sociales: https://www.facebook.com/c.david.fernandez.huapaya</h3>
+          <h3>Dirección: Mz D2 Lote 6 S.J.L., Lima, Perú</h3>
+      </fieldset>
+    </footer>
+
+  </body>
+</html>
